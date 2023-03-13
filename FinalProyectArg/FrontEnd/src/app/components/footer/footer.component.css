@@ -1,8 +1,8 @@
 .row{
-    background-color: aquamarine;
+    background-color: #030303ba;
 }
 footer{
-    color:brown;
+    color:rgb(235, 11, 11);
     font-size: 14px;
     display: flex;
     flex-direction: column;

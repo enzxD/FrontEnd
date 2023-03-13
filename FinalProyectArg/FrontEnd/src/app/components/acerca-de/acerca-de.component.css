@@ -4,7 +4,7 @@ img {
 }
 
 div {
-    background-color: aquamarine;
+    background-color: #7e6a2d;
     text-align: left;
 }
 /*etiqueta nombre*/
@@ -24,8 +24,8 @@ div {
         width: 20%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 2%;
-        top: 65%;
+        left: 1%;
+        top: 650px;
      }
     }
     @media (max-width: 575px) {
@@ -35,6 +35,6 @@ div {
            border-radius: 100%;
            box-shadow: 3px 3px 3px grey;
            left: 30%;
-           top: 60%;
+           top: 90%;
         }
        }
