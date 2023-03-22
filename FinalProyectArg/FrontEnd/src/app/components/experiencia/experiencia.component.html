@@ -13,7 +13,7 @@
                 <td><h2>{{Experiencia.nombreE}}</h2></td>
                 <td>{{Experiencia.descripcionE}}</td>
                 <td *ngIf="isLogged"><button class= "btn btn-light" routerLink="/editexp/{{Experiencia.id}}">EDITAR</button></td>
-                <td *ngIf="isLogged"><button class= "btn btn-danger" (click)="delete(Experiencia.id)"></button>>Borrar</td>
+                <td *ngIf="isLogged"><button class= "btn btn-danger" (click)="delete(Experiencia.id)">BORRAR</button></td>
             </tr>
 
         </tbody>
